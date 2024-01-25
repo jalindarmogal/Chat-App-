@@ -1,0 +1,87 @@
+/* Logo */
+.logo {
+    display: block;
+    margin: auto;
+    width: 100px; /* Increased size for better visibility */
+    height: 100px; /* Increased size for better visibility */
+}
+.start {
+    color: blue; /* Set the text color to blue */
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+/* Container */
+.container {
+    max-width: 600px; /* Increased max-width for better readability */
+    border: 2px solid black;
+    margin: auto;
+    height: 70vh; /* Increased height for better space allocation */
+    padding: 20px; /* Reduced padding for better content visibility */
+    overflow-y: auto;
+    margin-bottom: 20px; /* Reduced margin-bottom for better spacing */
+    background-color: rgba(255, 255, 255, 0.8); /* Added background color with transparency */
+    border-radius: 15px; /* Added border-radius for rounded corners */
+}
+
+/* Message Styling */
+.message {
+    background-color: #f0f0f0; /* Changed background color for better contrast */
+    width: auto; /* Adjusted width to fit content */
+    max-width: 70%; /* Added max-width for better readability */
+    padding: 10px;
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    border: 2px solid #ccc; /* Adjusted border color for better contrast */
+    border-radius: 15px; /* Added border-radius for rounded corners */
+}
+
+/* Message Alignment */
+.left {
+    clear: both;
+}
+
+.right {
+    clear: both;
+    text-align: right; /* Aligned right for sent messages */
+}
+
+/* Send Container */
+#send-container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px; /* Adjusted padding for better spacing */
+}
+
+/* Message Input */
+#messageInp {
+    width: 80%; /* Adjusted width for better visibility */
+    padding: 8px; /* Adjusted padding for better spacing */
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-right: 10px; /* Added margin-right for spacing */
+    box-sizing: border-box; /* Added box-sizing for consistent width */
+}
+
+/* Button */
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8px 16px; /* Adjusted padding for better button size */
+    background-color: #4CAF50; /* Added background color */
+    color: white; /* Changed text color for better contrast */
+}
+
+/* Body */
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(92, 120, 250), purple);
+    margin: 0; /* Removed default margin for full-width background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
